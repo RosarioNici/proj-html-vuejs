@@ -5,12 +5,6 @@ Vue.config.productionTip = false
 
 
 
-
-
-/* Set up using Vue 2 */
-import Vue from 'vue'
-import App from './App'
-
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 
