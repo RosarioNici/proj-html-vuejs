@@ -2,19 +2,22 @@
   <div id="app">
     <headerComponent class="header-component"/>
     <main-component/>
+    <FooterComponent/>
   </div>
 </template>
 
 <script>
 import headerComponent from './components/headerComponent.vue';
 import MainComponent from './components/mainComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 
 export default {
   name: 'App',
   components: {
     headerComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent
 }
 }
 </script>
