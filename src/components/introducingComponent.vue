@@ -1,6 +1,6 @@
 <template >
-    
-        <div class="container-md bg-color">
+    <div class="bg-color">
+        <div class="container-md ">
             <div class="text-center  py-4">
                 <h1 class="fw-bold fs-3">Meet the new agency SEO Template</h1> <h1 class="fw-bold fs-3">From the AVADA Team</h1>
                 <div class="container-h6">
@@ -28,11 +28,11 @@
                 
                 </div>
             </div>
-            <div>
-                <img src="../../public/images/agency-seo-desk-front-1200x570.jpg" alt="">
+            <div class="container-md">
+                <img class="img-fluid" src="../../public/images/agency-seo-desk-front-1200x570.jpg" alt="">
             </div>
         </div>
-          
+    </div>   
 </template>
 
 <script>
@@ -42,6 +42,9 @@ name: 'introducingComponent'
 </script>
 
 <style scoped >
+    .bg-color{
+        background-color:  #f8f8f8;;
+    }
 .icon-size{
  font-size: x-large;
  color: orange;

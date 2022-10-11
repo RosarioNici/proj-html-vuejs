@@ -1,16 +1,20 @@
 <template>
-  <introducingComponent class="bg-color" />
+    <div>
+        <introducingComponent class="bg-color-intro" />
+        <serviceComponent/>
+    </div>
 </template>
 
 <script>
 import IntroducingComponent from './introducingComponent.vue';
+import ServiceComponent from './serviceComponent.vue';
 export default {
-    components: { IntroducingComponent }
+    components: { IntroducingComponent, ServiceComponent }
 }
 </script>
 
-<style scoped>
-.bg-color{
+<style>
+.bg-color-intro{
         background-color: #f8f8f8;
     }
 </style>
