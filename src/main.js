@@ -13,6 +13,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faRoad } from '@fortawesome/free-solid-svg-icons'
+import { faVideo } from '@fortawesome/free-solid-svg-icons'
+import { faDroplet } from '@fortawesome/free-solid-svg-icons'
+library.add(faRoad, faVideo, faDroplet)
 
 /* add icons to the library */
 library.add(faUserSecret)

@@ -1,5 +1,5 @@
 <template>
-  <introducingComponent/>
+  <introducingComponent class="bg-color" />
 </template>
 
 <script>
@@ -9,6 +9,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.bg-color{
+        background-color: #f8f8f8;
+    }
 </style>
