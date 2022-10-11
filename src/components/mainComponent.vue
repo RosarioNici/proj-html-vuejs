@@ -2,14 +2,16 @@
     <div>
         <introducingComponent class="bg-color-intro" />
         <serviceComponent/>
+        <VetrinaComponent class="bg-color-intro"/>
     </div>
 </template>
 
 <script>
 import IntroducingComponent from './introducingComponent.vue';
 import ServiceComponent from './serviceComponent.vue';
+import VetrinaComponent from './vetrinaComponent.vue';
 export default {
-    components: { IntroducingComponent, ServiceComponent }
+    components: { IntroducingComponent, ServiceComponent, VetrinaComponent }
 }
 </script>
 
